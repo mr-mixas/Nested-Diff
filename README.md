@@ -1,6 +1,6 @@
 # NAME
 
-Nested-Diff - Yet another format for nested structures diff
+Nested-Diff - Yet another diff format for nested structures
 
 # VERSION
 
@@ -21,7 +21,7 @@ Diff is a hashmap and may contain following keys:
 Diff metadata alternates with data and may represent any structure of any data
 types. Simple types specified as is, arrays and hashmaps contain subdiffs for
 their items with native for such types addressing: indexes for arrays and keys
-for hashes. Every status type, except **D**, may be (optionally) omitted
+for hashmaps. Every status type, except **D**, may be (optionally) omitted
 during the diff calculation.
 
 Next example uses JSON for simplicity (format itself is language and marshalling
@@ -53,18 +53,22 @@ format agnostic).
 
 # IMPLEMENTATIONS
 
+## Libraries
+
 * **Perl:** [Struct::Diff](https://metacpan.org/pod/Struct::Diff)
 
-As command-line tool: [nddiff](https://metacpan.org/pod/nddiff)
+## Applications
+
+* [nddiff](https://metacpan.org/pod/nddiff)
 
 # TESTS
 
-[JSON common](https://github.com/mr-mixas/Nested-Diff/tree/master/tests/json)
+[JSON based tests](https://github.com/mr-mixas/Nested-Diff/tree/master/tests/json)
 
 # BUGS
 
 Please report any bugs or feature requests to
-[Tracker](https://github.com/mr-mixas/Nested-Diff/issues)
+[GitHub tracker](https://github.com/mr-mixas/Nested-Diff/issues)
 
 # AUTHOR
 
@@ -75,6 +79,7 @@ Michael Samoglyadov, `<mixas at cpan.org>`
 [JSON Patch (rfc6902)](https://tools.ietf.org/html/rfc6902)  
 [JSON Merge Patch (rfc7396)](https://tools.ietf.org/html/rfc7396)  
 [DeepDiff](https://deepdiff.readthedocs.io/en/latest/)  
+[json-delta](https://json-delta.readthedocs.io/en/latest/)  
 
 # LICENSE AND COPYRIGHT
 
