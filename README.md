@@ -56,6 +56,7 @@ format agnostic).
 ## Libraries
 
 * **Perl:** [Struct::Diff](https://metacpan.org/pod/Struct::Diff)
+* **python** [nested-diff](https://pypi.org/project/nested-diff/)
 
 ## Applications
 
