@@ -81,6 +81,8 @@ Michael Samoglyadov, `<mixas at cpan.org>`
 [JSON Merge Patch (rfc7396)](https://tools.ietf.org/html/rfc7396)  
 [DeepDiff](https://deepdiff.readthedocs.io/en/latest/)  
 [json-delta](https://json-delta.readthedocs.io/en/latest/)  
+[jsondiff](https://pypi.org/project/jsondiff/),  
+[deep-diff](https://github.com/flitbit/diff)  
 
 # LICENSE AND COPYRIGHT
 
