@@ -6,5 +6,6 @@
    "diff" : {},
    "opts" : {
       "noA" : 1
-   }
+   },
+   "patched" : []
 }

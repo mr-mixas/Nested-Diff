@@ -10,5 +10,10 @@
    "diff" : {},
    "opts" : {
       "noR" : 1
+   },
+   "patched" : {
+      "one" : {
+         "two" : 2
+      }
    }
 }
